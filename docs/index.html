@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PCR AnyWhere</title>
+  <link rel="icon" href="logo.ico" type="image/x-icon">
+  <style>
+     body {
+      margin: 0;
+      background-color: #FOFOFO;
+      font-family: sans-serif;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    .header {
+      background-color: #C0C0C0;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .header img {
+      height: 130px;
+      object-fit: contain;
+    }
+
+    .welcome {
+      display: flex;
+      gap: 20px;
+      background-color: #303030;
+    }
+
+    .column {
+      flex: 1;
+      color: #E0E0E0;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    
+    .column a {
+      color: #8080F0;
+      text-decoration: none;
+    }
+
+    .introduction {
+      background-color: #B0B0B0;
+      padding: 20px;
+      font-size: 24px;
+      color: white;
+    }
+
+    .introduction a {
+      color: #4040F0;
+      text-decoration: none;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 20px;
+      background-color: #B0B0B0;
+    }
+    
+    .buttons a {
+      transition: transform 0.5s;
+    }
+
+    .buttons a:hover {
+      transform: translateY(-10px);
+    }
+
+    .button {
+      flex: 1;
+      color: white;
+      font-size: 24px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+    
+    .footer {
+      background-color: #DCC5ED;
+      color: #9F5FCF;
+      padding: 10px;
+    }
+
+    @media (max-width: 768px) {
+      .header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+      }
+
+      .welcome {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+      }
+
+      .buttons {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <a href="https://pcranywhere.com"><img src="logo.png"></a>
+    </header>
+  </div>
+  
+  <div class="container">
+    <section class="welcome">
+      <div class="column">
+        <img src="image.png" style="width: 100%; height: auto; cursor: pointer;" onclick="openModal('image.png')">
+      </div>
+      <div class="column">
+        <p style="font-size:36px; font-weight: bold">PCR AnyWhere</p>
+        <p style="font-size:24px"><b>PCR AnyWhere</b> is obsolete now.</p>
+        <p style="font-size:24px">It has been replaced by <a href="https://nilibox.com" target="_blank"><b>niliBOX</b></a>, a brand new software with many new outstanding capabilities.</p>
+        <p style="font-size:24px">We hope you will enjoy <b>niliBOX.</b></p>
+      </div>
+    </section>
+  </div>
+
+  <div class="container">
+    <section class="introduction">
+      <p>Looking for the PCR AnyWhere installers?</p>
+      <p>You can download them from here:</p>
+    </section>
+  </div>
+
+  <div class="container">
+    <section class="buttons">
+      <div class="button">
+        <table>
+          <tr><a href="https://github.com/jcarlos-prieto/PCRAnyWhere/releases/download/v2.3/PCRAnyWhere_2.3-Setup.exe"><img src="windows.png" style="width: 40%; height: auto;"></a></tr>
+          <tr>Windows</tr>
+        </table>
+      </div>
+      <div class="button">
+        <table>
+          <tr><a href="https://github.com/jcarlos-prieto/PCRAnyWhere/releases/download/v2.3/PCRAnyWhere_2.3-Setup.bin"><img src="linux.png" style="width: 40%; height: auto;"></a></tr>
+          <tr>Linux</tr>
+        </table>
+      </div>
+      <div class="button">
+        <table>
+          <tr><a href="https://github.com/jcarlos-prieto/PCRAnyWhere/releases/download/v2.3/PCRAnyWhere_2.3-Setup.dmg"><img src="macos.png" style="width: 40%; height: auto;"></a></tr>
+          <tr>macOS</tr>
+      </table>
+      </div>
+      <div class="button">
+        <table>
+          <tr><a href="https://github.com/jcarlos-prieto/PCRAnyWhere/releases/download/v2.3/PCRAnyWhere_2.2.1-UserMan-EN.pdf"><img src="manual.png" style="width: 40%; height: auto;"></a></tr>
+          <tr>User manual</tr>
+        </table>
+      </div>
+    </section>
+  </div>
+
+  <div class="container">
+    <header class="footer">
+       <br><br>© 2025 - pcranywhere.com<br><br><br>
+    </footer>
+  </div>
+
+</body>
+
+</html>
