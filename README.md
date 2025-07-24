@@ -1,4 +1,4 @@
-<img src="./header.jpg">
+<img src="./logo.png" width="50%">
 
 This is the repository for the legacy application ***PCR AnyWhere***. This software has been superseded by [***niliBOX***](https://nilibox.com).
 
