@@ -4,4 +4,4 @@ This is the repository for the legacy application ***PCR AnyWhere***. This softw
 
 The purpose of creating this repository is to provide the latest version of the installers. This is the version 2.3 from 2014.
 
-The installers for Windows, Linux and macOS can be found in the *Releases* section.
+The installers for Windows, Linux and macOS can be found in the [*Releases*](https://github.com/jcarlos-prieto/PCRAnyWhere/releases) section.
